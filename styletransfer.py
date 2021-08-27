@@ -8,6 +8,7 @@ st.text('DOES NOT WORK WITH DISCORD LINKS')
 import tensorflow as tf
 # Load compressed models from tensorflow_hub
 os.environ['TFHUB_MODEL_LOAD_FORMAT'] = 'COMPRESSED'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 import IPython.display as display
 
 import numpy as np
