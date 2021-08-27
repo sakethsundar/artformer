@@ -4,6 +4,7 @@ st.title('Artformer')
 st.header('Using Deep Learning to Transform an Image in the Style of Another Image')
 st.subheader('This tool can be used to turn your images into beautiful paintings of the style of Van Gogh, Picasso, or any art piece you love!')
 st.text('Paste in links for an image to transform and for the style. Links must end in .jpg or .png')
+st.text('DOES NOT WORK WITH DISCORD LINKS')
 import tensorflow as tf
 # Load compressed models from tensorflow_hub
 os.environ['TFHUB_MODEL_LOAD_FORMAT'] = 'COMPRESSED'
